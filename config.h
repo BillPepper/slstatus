@@ -64,8 +64,8 @@ static const struct arg args[] = {
   { cpu_perc, "cpu: %s% | "},
   { cpu_freq, "clk: %s | "},
   { ram_used, "ram: %s | "},
-  { disk_perc, "dsk: %s% | ",        "/"},
-  { ipv4, "%s | ",            "eno1"},
-	{ datetime, "%s | ",           "%d.%m.%Y (%a)" },
-	{ datetime, "%s |",           "%H:%M" },
+  { disk_free, "dsk: %s | ", "/"},
+  { ipv4, "%s | ", "eno1"},
+	{ datetime, "%s | ", "%d.%m.%Y (%a)" },
+	{ datetime, "%s |", "%H:%M" },
 };
